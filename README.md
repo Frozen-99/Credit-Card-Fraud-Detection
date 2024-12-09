@@ -1,28 +1,12 @@
-Fraudulent financial transacHons pose a significant challenge to financial insHtuHons, leading to
-substanHal monetary losses and reputaHonal damage. The increasing volume of digital transacHons has
-intensified the need for sophisHcated fraud detecHon systems. This project, Htled Fraud Detec+on in
-Credit card Transac+ons Using Machine Learning, aims to address these challenges by developing an
-accurate and eﬃcient fraud detecHon model.
-Using a publicly available dataset from Kaggle, which contains both legiHmate and fraudulent credit card
-transacHons, the project explores various machine learning and tradiHonal algorithms to detect
-fraudulent acHvity. The dataset presents an inherent challenge due to its highly imbalanced nature, with
-fraudulent transacHons represenHng a small fracHon of the total data.
-The project involves comprehensive data exploraHon, preprocessing, and feature engineering to
-opHmize the input for machine learning models. Techniques such as SyntheHc Minority Oversampling
-(SMOTE) and class-weight adjustments are used to handle data imbalance. MulHple models, including
-LogisHc Regression, Random Forest, Gradient BoosHng Machines (XGBoost), Support Vector Machines
-(SVM), Neural Networks, K-Nearest Neighbor classificaHon and Anomaly DetecHon techniques, are
-evaluated.
-Key findings indicate that the K-Nearest Neighbors (KNN) model achieved the highest recall (98%) and
-ROC-AUC (99%), demonstraHng its excepHonal capability to detect fraudulent transacHons while
-maintaining strong precision. The Neural Network model also performed well with a high recall (91.8%)
-and ROC-AUC (99.1%), eﬀecHvely idenHfying fraud with high precision (87.6%). AddiHonally, XGBoost
-and SVM (RBF) showed good performance, balancing precision and recall eﬀecHvely.
-KNN performs beEer in fraud detecHon because it captures localized paierns and is less prone to
-overfijng, especially with imbalanced datasets. It excels at detecHng fraud clusters based on proximity
-in the feature space. In contrast, Neural Networks may struggle with overfijng, require more data, and
-face challenges in learning subtle fraud paierns, parHcularly when data is imbalanced.
-In conclusion, the project emphasizes the importance of selecHng models based on business objecHves,
-such as maximizing fraud detecHon or minimizing false posiHves. The findings oﬀer valuable insights for
-implemenHng scalable fraud detecHon systems that can be applied to high-volume transacHon
-environments.
+Fraudulent financial transactions pose ​a significant challenge​ to ​financial institutions,​ ​leading to substantial​ monetary ​losses and reputational damage. The increasing​ volume of digital transactions has intensified ​the need for​ sophisticated fraud detection systems. This project, titled Fraud Detection in Credit card Transactions Using Machine Learning, ​aims to address these challenges by developing​ an ​accurate and​ efficient fraud detection model. 
+
+​​Using a publicly available dataset from Kaggle​, which contains ​both legitimate and​ ​fraudulent credit card transactions, the​ project explores various machine learning and traditional algorithms to detect fraudulent activity. The dataset presents an inherent challenge due to its highly imbalanced nature, with fraudulent transactions representing a small fraction of the total data. 
+
+The project involves comprehensive data exploration, preprocessing, and feature engineering to optimize the input for machine learning models. ​Techniques such as​ ​Synthetic Minority Oversampling (SMOTE​) and class-weight adjustments are used to handle data imbalance. Multiple ​models, including Logistic Regression, Random​ ​Forest, Gradient Boosting Machines​ (XGBoost), Support Vector Machines (SVM), Neural Networks, K-Nearest Neighbor classification and Anomaly Detection techniques, are evaluated. 
+
+Key findings indicate that the K-Nearest Neighbors (KNN) model achieved the highest recall (98%) and ROC-AUC (99%), demonstrating its exceptional capability to detect fraudulent transactions while maintaining strong precision. The Neural Network model also performed well with a high recall (91.8%) and ROC-AUC (99.1%), effectively identifying fraud with high precision (87.6%). Additionally, XGBoost and SVM (RBF) showed good performance, balancing precision and recall effectively. 
+
+ 
+KNN performs better in fraud detection because it captures localized patterns and is less prone to overfitting, especially with imbalanced datasets. It excels at detecting fraud clusters based on proximity in the feature space. In contrast, Neural Networks may struggle with overfitting, require more data, and face challenges in learning subtle fraud patterns, particularly when data is imbalanced. 
+
+In conclusion, the project emphasizes the importance of selecting models based on business objectives, such as maximizing fraud detection or minimizing false positives. The findings offer valuable insights for implementing scalable fraud detection systems that can be applied to high-volume transaction environments. 
